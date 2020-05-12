@@ -104,7 +104,7 @@ win(game)
 
 #Horizontal Rows Matching
 
-game = [[1, 0, 1],
+game = [[1, 0, 0],
         [2, 0, 2],
         [2, 2, 2]]
 
@@ -120,7 +120,7 @@ win(game)
 
 #Vertical Rows Matching
 game = [[1,0,1], 
-		[1,1,2],
+		[1,1,23],
 		[1,2,2]]
 
 check = []
