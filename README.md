@@ -6,7 +6,7 @@ Issue Creator and Tracker is a WebApp project in Node.js which uses basic javasc
 Special thanks to [Sebastian](https://github.com/seeschweiler) for the amazing tutorial. Follow his video on [Youtube](https://www.youtube.com/watch?v=NYq9J-Eur9U) 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install. 
 
 ```bash
 npm install chance
