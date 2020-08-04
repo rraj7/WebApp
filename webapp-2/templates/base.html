@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Flask App</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <!import url_for in case this function won't work>
+  <link rel ="stylesheet" href = "{{ url_for('static',filename='css/main.css')}}">
+  {%block head%} {%endblock%}
+  </head>
+  <body>
+        {%block body%}{% endblock%}
+  </body>
+</html>
